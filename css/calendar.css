@@ -1,0 +1,79 @@
+/* Days of the Week */
+#weekdays {
+    /* display */
+    display: flex;
+    justify-content: space-around;
+
+    width: 100%;
+
+    color: #707070;
+}
+
+#weekdays div {
+    /* text */
+    text-align: center;
+
+    /* sizing */
+    width: 100px;
+    padding: 10px;
+}
+
+/* Calendar Grid */
+#calendar {
+    width: 100%;
+    margin: auto;
+
+    /* display */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Day Boxes */
+.day {
+    /* flexbox stuff */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    /* sizing */
+    width: 100px;
+    padding: 10px;
+    height: 100px;
+
+    margin: 5px;
+
+    cursor: pointer;
+
+    box-sizing: border-box;
+
+    background-color: #F4F1EC;
+
+    /* border */
+    border-style: none;
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px rgba(0,0,0, 0.2);
+}
+
+.day:hover {
+    background-color: beige;
+}
+
+.event {
+    color: white;
+    font-size: 10px;
+
+    padding: 3px;
+
+    background-color: #58bae4;
+    
+    border-radius: 5px;
+
+    height: 55px;
+    overflow: hidden;
+}
+
+/* Days between last month and current one (padding days) */
+.padding {
+    background-color: lightgrey; 
+    color: rgb(251, 251, 251); 
+}

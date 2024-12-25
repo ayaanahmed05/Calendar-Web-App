@@ -1,0 +1,39 @@
+/* For the line in between header and main calendar */
+#header-container {
+    border-bottom: solid 1px grey;
+}
+
+#header {
+    padding-bottom: 10px;
+
+    width: 100%;
+
+    /* font */
+    color: #284B63;
+    font-size: 26px;
+    font-family: montserrat, arial;
+    font-weight: bold;
+
+    /* flexbox stuff */
+    display: flex;
+    justify-content: space-around;
+}
+
+#header button {
+    background-color: #92a1d1;
+
+    cursor: pointer;
+
+    /* padding */
+    padding: 10px 15px;
+
+    /* border */
+    border: none;
+    border-radius: 50%;
+
+    /* text */
+    color: white;
+    font-family: poppins, arial;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
