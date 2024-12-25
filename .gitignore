@@ -1,0 +1,20 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.iml
+
+# Backup/Temporary files
+*.tmp
+*.bak
+*~
+
+# Future: Logs or output files
+*.log
+
+# Future: Add specific build outputs if preprocessing is introduced
+dist/
+build/
